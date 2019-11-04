@@ -1,0 +1,62 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar{
+    background: #000;
+}
+
+.navbar .nav-item{
+    padding-left: 50px;
+}
+
+#about-header{
+    height: 200px;
+    background: url('../image/hill.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+#about-header .dark-overlay{
+    background: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#what-do img{
+    height: 300px;
+    width: 300px;
+}
+
+#icon-box .fa{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#testimonial .slick-prev::before, .slick-next::before{
+    color: #000;
+}
+
+#footer{
+    background: #000;
+    height: 60px;
+}
+
+@media(max-width:768px){
+    .nav-item{
+        padding: 0 !important;
+    }
+
+}
+
+@media(max-width:425px){
+    #about-header{
+        height: 290px;
+    }
+
+}

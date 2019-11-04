@@ -1,0 +1,92 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.navbar{
+    background: #000;
+}
+
+.navbar .nav-item{
+    padding-left: 50px;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-img-1{
+    background: url('../image/sunromantic.jpg');
+    background-size: cover;
+}
+.carousel-img-2{
+    background-image: url('../image/sundown.jpg');
+    background-size: cover;
+}
+.carousel-img-3{
+    background-image: url('../image/handup.jpg');
+    background-size: cover;
+}
+
+#home-icon .fa, .fas {
+    font-size:50px;
+}
+
+#scroloverly{
+    position: relative;
+    background: url('../image/cycle.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+#scroloverly .dark-overly{
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#youtubelink{
+    position: relative;
+    height: 200px;
+    background: url('../image/sunglass.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#youtubelink .dark-overly{
+    position: absolute;
+    background-color: #000;
+    opacity: 0.7;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#youtubelink .fa{
+    font-size: 50px;
+    color: #ff0000;
+}
+
+#photo-gallery img{
+    min-height: 270px;
+}
+
+#footer{
+    background: #000;
+    height: 60px;
+}
+
+@media(max-width:768px){
+    .nav-item{
+        padding: 0 !important;
+    }
+
+}
+@media(max-width:425px){
+    #scroloverly{
+        height: 400px;
+    }  
+}
